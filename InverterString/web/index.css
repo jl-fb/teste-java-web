@@ -16,3 +16,10 @@ input[type="text"]{
     width: 160px;
     margin-top: 5px;
 }
+.resposta{
+    font-weight: bold;
+    font-size: 20px;
+}
+.botao{
+    
+}

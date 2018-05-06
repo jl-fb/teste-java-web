@@ -10,11 +10,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Conversor de Palavras</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <h2>Conversor de Palavras</h2>
-        <p>A palavra <%= request.getAttribute("palavra")%> em sua forma invertida é: <%= request.getAttribute("reverse")%> <br><br>
-        <form><input type="button" value="retorar" onclick="history.back()"></form>
-                
+        <p>A palavra <%= request.getAttribute("palavra")%> em sua forma invertida é: <samp class="resposta"><%= request.getAttribute("reverse")%></samp> <br><br>
+        <input type="button" value="Retorar" onclick="history.back()">
+        
     </body>
 </html>
