@@ -14,6 +14,7 @@
     </head>
     <body>
         <h2>Conversor de Palavras</h2>
+      
         <p>A palavra <%= request.getAttribute("palavra")%> em sua forma invertida é: <samp class="resposta"><%= request.getAttribute("reverse")%></samp> <br><br>
         <input type="button" value="Retorar" onclick="history.back()">
         

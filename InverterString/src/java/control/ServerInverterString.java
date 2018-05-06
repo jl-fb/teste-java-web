@@ -31,8 +31,8 @@ public class ServerInverterString extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+       
         String str = request.getParameter("palavra");
-        
         String reverse = new StringBuffer(str).reverse().toString();
         
         request.setAttribute("palavra", str);
